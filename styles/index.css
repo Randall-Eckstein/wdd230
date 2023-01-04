@@ -1,0 +1,16 @@
+#complaint {
+    color: orangered;
+    font-size: 1.4em;
+}
+#intro {
+    color: orange;
+    font-size: 1.3em;
+}
+body {
+    background-color: dimgray;
+}
+a {
+    margin: 25px;
+    padding: 5px;
+    background-color: aqua;
+}

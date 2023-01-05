@@ -1,0 +1,40 @@
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.intro img {
+    grid-column: 1/2;
+}
+.intro h1 {
+    grid-column: 2/3;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    max-width: 550px;
+    background-color: aliceblue;
+}
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+ul {
+    font-size: 1.3em;
+}
+ul li {
+    padding: 3px;
+}
+.intro, footer {
+    background-color: #182e6e;
+    padding: 20px;
+    border-radius: 35px;
+    max-width: 550px;
+    color: #e0a72b;
+}
+footer {
+    text-align: center;
+    font-size: 1.1em;
+}
+.hud {
+    color: yellow;
+}

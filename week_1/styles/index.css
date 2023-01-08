@@ -11,7 +11,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body {
-    max-width: 550px;
+    max-width: 650px;
     background-color: aliceblue;
 }
 h2 {
@@ -20,20 +20,26 @@ h2 {
 }
 ul {
     font-size: 1.3em;
+    text-align: center;
 }
 ul li {
     padding: 3px;
+    display: block;
 }
-.intro, footer {
+.intro, .footer {
     background-color: #182e6e;
     padding: 20px;
     border-radius: 35px;
-    max-width: 550px;
+    max-width: 500px;
     color: #e0a72b;
+    margin: auto;
+    text-align: center;
 }
 footer {
     text-align: center;
     font-size: 1.1em;
+    bottom: 0;
+    width: 100%;
 }
 .hud {
     color: yellow;

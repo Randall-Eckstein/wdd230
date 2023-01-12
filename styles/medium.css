@@ -1,0 +1,22 @@
+@media screen and (min-width: 32.5em){
+
+h1 {
+    color: darkslateblue;
+    font-size: 2.5em;
+}
+h3 {
+    color: navajowhite;
+    font-size: 3em;
+}
+.class {
+    font-weight: 1000;
+    padding: 25px;
+    max-width: 100px;
+    margin: auto;
+    background-color:navajowhite;
+    border: 3px blue dashed;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 15%;
+}
+}

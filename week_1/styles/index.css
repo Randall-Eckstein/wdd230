@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=The+Girl+Next+Door&display=swap');
+
 .intro {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -8,7 +10,7 @@
 .intro h1 {
     grid-column: 2/3;
     margin: auto;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'The Girl Next Door', cursive;
 }
 body {
     max-width: 650px;
@@ -16,7 +18,7 @@ body {
     margin: auto;
 }
 h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'The Girl Next Door', cursive;
     text-align: center;
 }
 ul {
@@ -24,6 +26,7 @@ ul {
 }
 ul li {
     padding: 3px;
+    font-family: 'Manrope', sans-serif;
 }
 .intro, .footer {
     background-color: #182e6e;
@@ -39,6 +42,7 @@ footer {
     font-size: 1.1em;
     bottom: 0;
     width: 100%;
+    font-family: 'Manrope', sans-serif;
 }
 .hud {
     color: yellow;

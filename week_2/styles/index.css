@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+
+header, footer {
+    background-color: darkblue;
+    text-align: center;
+    color: lightblue;
+    font-family: 'Manrope', sans-serif;
+    display: block;
+    max-width: 93%;
+    margin: auto;
+}
+header {
+    padding: 10px;
+}
+
+footer {
+    padding: 5px;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 20px;
+    font-family: 'Manrope', sans-serif;
+}
+.design-principle {
+    background-color: lightgray;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.design-principle h4 {
+    text-align: center;
+    background-color: darkblue;
+    padding: 5px;
+    color: lightblue;
+}
+
+.design-principle img {
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.design-principle p {
+    padding: 0px 10px 0px 10px;
+    text-align: justify;
+    color: darkblue;
+
+}
+
+.link {
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 550px) {
+    .articles {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 551px) {
+    .articles {
+        grid-template-columns: 1fr 1fr;
+    }
+}

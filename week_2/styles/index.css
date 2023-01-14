@@ -67,4 +67,7 @@ footer {
     .articles {
         grid-template-columns: 1fr 1fr;
     }
+    .design-principle:nth-child(3) {
+        grid-column: 1/3;
+    }
 }

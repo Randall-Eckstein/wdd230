@@ -1,0 +1,142 @@
+body {
+    background-color: #fff8dc;
+}
+
+header div {
+    display: flex;
+    padding: 10px 0;
+    color: #ff0000;
+}
+
+header div h1 {
+    font-size: 4vw;
+    margin: auto;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    list-style-type: none;
+    width: 100%;
+    box-shadow: 0 2px 15px grey;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+a {
+    display: block;
+    background-color: #f5f5f5;
+    color: red;
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+    font-size: 1.3em;
+    height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    display: block;
+    max-height: 75px;
+    padding: 0 20px;
+    margin: auto;
+}
+
+.purpose {
+    padding: 30px 30px;
+}
+
+.purpose p, #audience-intro, .design p {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    margin-left: 20px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 5px 10px;
+    font-size: 1.1em;
+}
+
+.audience, .design, .purpose {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 20px;
+    color: #dc143c
+}
+
+.design-table {
+    background-color: white;
+    color: black;
+}
+
+#header-color {
+    background-color: #fff8dc;
+}
+#header-text {
+    background-color: #fff8dc;
+    color: #ff0000;
+    font-size: 4vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#nav-color {
+    background-color: #f5f5f5;
+}
+#nav-text {
+    background-color: #f5f5f5;
+    color: #ff0000;
+    font-size: 1.3em;
+}
+
+#h1-text {
+    color: #dc143c;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#paragraph-text {
+    color: #dc143c;
+    font-size: 1.5em;
+}
+
+#table-text {
+    background-color: #fff8dc;
+    color: #dc143c;
+    font-size: 1.1em;
+}
+
+
+
+
+@media only screen and (min-width: 675px) {
+    header ul {
+        display: grid;
+        grid-template-columns: 200px repeat(3, 1fr);
+    }
+
+    header li {
+        display: flex;
+        align-items: center;
+        box-shadow: none;
+        width: 150px;
+    }
+
+    a {
+        width: 100%;
+    }
+
+    img {
+        max-height: 150px;
+    }
+}

@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 10px;
+}
+
+header, footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+}
+
+h6 {
+    color: forestgreen;
+    font-size: 0.9em;
+}
+
+video {
+    width: 90vw;
+    height: 90vh;
+}
+
+@media only screen and (min-width: 670px) {
+    /* video {
+        width: 640px;
+        height: 480px;
+    } */
+
+
+}

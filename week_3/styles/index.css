@@ -122,12 +122,13 @@ td, th {
 @media only screen and (min-width: 675px) {
     header ul {
         display: grid;
-        grid-template-columns: 200px repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     header li {
         display: flex;
         align-items: center;
+        margin: auto;
         box-shadow: none;
         width: 150px;
     }

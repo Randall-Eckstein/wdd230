@@ -8,7 +8,7 @@ button.addEventListener("click", function() {
         const li = document.createElement("li");
         li.innerHTML = input.value;
         const delButton = document.createElement("button");
-        delButton.innerHTML = "X";
+        delButton.innerHTML = "❌";
         li.appendChild(delButton);
         list.appendChild(li);
 

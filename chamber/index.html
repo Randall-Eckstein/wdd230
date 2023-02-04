@@ -17,7 +17,10 @@
 <main>
     <header>
         <div>
-            <img src="./images/coc-logo.png" alt="Jilin Chamber of Commerce Logo: a yellow bird on rime-covered branches of a tree">
+            <h2 class="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2>
+        </div>
+        <div>
+            <img class="logo" src="./images/coc-logo.png" alt="Jilin Chamber of Commerce Logo: a yellow bird on rime-covered branches of a tree">
             <div id="title">
                 <h1>Jilin City Chamber of Commerce</h1>
                 <p id="currentDate"></p>
@@ -25,9 +28,9 @@
         </div>
         <nav>
             <div class="social-media">
-                <a href="./#"><img src="./images/Facebook.png"></a>
-                <a href="./#"><img src="./images/twitter.png"></a>
-                <a href="./#"><img src="./images/Mail.png"></a>
+                <a href="./#"><img src="./images/Facebook.png" alt="Facebook Link"></a>
+                <a href="./#"><img src="./images/twitter.png" alt="Twitter Link"></a>
+                <a href="./#"><img src="./images/Mail.png" alt="Email Link"></a>
             </div>
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
             <ul id="primaryNav">
@@ -42,46 +45,94 @@
     </header>
         <div class="body-grid">
             <div id="hero">
-                <h3>Hero Box</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, esse est odit error numquam labore dolor ducimus nam quia? Reiciendis, expedita. Blanditiis earum illum, laboriosam quam voluptatibus assumenda nemo non!</p>
+                <div class="absContainer">
+                    <img id="heroImg" src="./images/NanHu.jpg" alt="View of NanHu Park during Mid Autumn Day festival.  Against the backdrop of night, a lantern dragon is lit up in yellow and floating on the lake.">
+                    <button class="heroJoinButton" type="button">Join the Chamber</button> 
+                </div>
             </div>
             <div id="event">
-                <h3>Event Box</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia unde nostrum ipsam aliquid nemo atque non possimus omnis quo nisi consequuntur accusamus tempore dolores provident corrupti optio, veniam molestias autem.</p>
+                <h3>Park and Play</h3>
+                <p>
+                    Join us each Thursday for a meet and greet in Century Square.
+                </p>
+                <p>
+                    There will be skating, music, and chances to make new friends.
+                </p>
             </div>
             <div id="weather">
-                <h3>Weather Box
-                </h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non et minima eos incidunt repudiandae animi fugit aperiam perferendis eveniet earum sit, labore magni modi consequatur temporibus illo beatae pariatur dolor.</p>
+                <h3>Weather</h3>
+                <h2>
+                    ⛅ 19℃
+                </h2>
+                <h4>Partly Cloudy</h4>
+                <hr>
+                <div class="weatherCallouts">
+                    <div id="windSpeed">
+                        <p>Wind Speed:</p>
+                    </div>
+                    <div id="windChill">
+                        <p>Wind Chill:</p>
+                    </div>
+                </div>
+                <div class="weatherDetails">
+                    <div id="windSpeedNumber">
+                        <p>3 km/h</p>
+                    </div>
+                    <div id="windChillNumber">
+                        <p>N/A</p>
+                    </div>
+                </div>
             </div>
             <div id="news">
-                <h3>News Box</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, tempore aliquid a laborum provident, doloribus corporis voluptates voluptatibus exercitationem vel sequi est sint quo obcaecati cumque velit inventore hic! Unde.</p>
+                <h3>News Release</h3>
+                <p>
+                    After last week's job fair, fourteen foreign teachers found their jobs, two import and export businesses hired new recruits.
+                </p>
+                <p>
+                    Keep an eye out for our next job fair coming next quarter.
+                </p>
             </div>
             <div id="spotlight-container">
                 <div id="sl-one">
-                    <h3>First Spotlight</h3>
-                    <p id="st-one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores adipisci quam distinctio inventore? Animi placeat eius consectetur ipsa. Corrupti quod consequuntur vitae atque incidunt sed obcaecati possimus ducimus quidem exercitationem!</p>
+                    <h3>English First</h3>
+                    <h1 class="sl-logo">🎓</h1>
+                    <p id="st-one">
+                        Find the right job right now.  Hiring teachers for all ages classrooms.
+                    </p>
+                    <hr>
+                    <p>
+                        Contact us: 13944693728 email: efteachers@ef.edu
+                    </p>
                 </div>
                 <div id="sl-two">
-                    <h3>Second Spotlight</h3>
-                    <p id="st-two">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum inventore dolor architecto voluptatum beatae labore, natus illum, facilis, quia officiis nulla. Sed rem officia dolorem accusantium culpa quas perspiciatis hic.</p>
+                    <h3>Foreign Affairs Office</h3>
+                    <h1 class="sl-logo">🏮</h1>
+                    <p id="st-two">
+                        Comments, suggestions, ideas?  How is Jilin doing?  Tell us the good, and tell us the bad.
+                    </p>
                 </div>
                 <div id="sl-three">
-                    <h3>Third Spotlight</h3>
-                    <p id="st-three">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, velit. Fugit inventore officia exercitationem voluptates vel maxime facere, id necessitatibus vitae voluptatum quas, dolores pariatur perferendis accusantium? Laudantium, esse iusto.</p>
+                    <h3>Care Packages</h3>
+                    <h1 class="sl-logo">📦</h1>
+                    <p id="st-three">
+                        Weekly, monthly, seasonally.  We have packages in every budget, from food to commodities.  We'll take care of you.
+                    </p>
                 </div>
             </div>
             <div id="join">
-                <h3>Join Box</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, tempore aliquid a laborum provident, doloribus corporis voluptates voluptatibus exercitationem vel sequi est sint quo obcaecati cumque velit inventore hic! Unde.</p>
+                <div>
+                    <button class="joinBoxButton">Join Us!</button>
+                </div>
+                <p>
+                    Discover how to join the Jilin City Chamber of Commerce and find out how it can benefit your career or organization.
+                </p>
             </div>
         </div>
     <hr>
     <footer>
         <div class="footer">
             <div id="address">
-                <img src="./images/coc-logo.png" alt="Jilin Chamber of Commerce Logo: a yellow bird on rime-covered branches of a tree">
+                <img class="logo" src="./images/coc-logo.png" alt="Jilin Chamber of Commerce Logo: a yellow bird on rime-covered branches of a tree">
                 <h2>Jilin Chamber of Commerce</h2>
                 <h4>#42 Lin Jiang West Road</h4>
                 <h4>Jilin, Jilin, China 132011</h4>

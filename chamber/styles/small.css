@@ -2,7 +2,7 @@
 
 body {
     background-color: #fff8dc;
-    display: flex;
+    /* display: flex; */
     font-family: 'Khula', sans-serif;
 }
 
@@ -26,6 +26,10 @@ header div {
 #title p {
     font-size: 3.5vw;
     margin: 15px 0;
+}
+
+#primaryNav a:hover {
+    background-color: #fff8dc;
 }
 
 header ul {
@@ -99,18 +103,96 @@ li a {
     height: auto;
 }
 
-img {
+.logo {
     display: block;
     max-height: 75px;
     padding: 0 20px;
     margin: auto;
 }
 
-#hero, #event, #weather, #news, #spotlight-container, #sl-one, #sl-two, #sl-three, #join {
+#heroImg {
+    width: 100%;
+    padding: 0;
+}
+
+.absContainer {
+    position: relative;
+}
+
+.heroJoinButton {
+    position: absolute;
+    background-color: #ff0000;
+    right: 10%;
+    bottom: 15%;
+    z-index: 1;
+    font-size: 1.2em;
+    color: #fff8dc;
+    padding: 2%;
+}
+
+.heroJoinButton:hover {
+    background-color: #fff8dc;
+    color: #ff0000;
+}
+
+#join div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.joinBoxButton {
+    width: 90%;
+    padding: 2%;
+    border: solid 2px #ff0000;
+    border-radius: 10px;
+    background-color: #f03;
+    color: #F8F07D;
+    font-size: 2rem;
+    font-family: 'Gentium Book Plus', serif;
+    font-weight: 700;
+}
+
+.joinBoxButton:hover {
+    background-color: #fff8dc;
+    color: #f03;
+}
+
+#event, #weather, #news, #spotlight-container, #sl-one, #sl-two, #sl-three, #join {
     box-shadow: 0 2px 15px #e01;
     padding: 10px;
     margin: 20px;
-    color: #f03;    
+    color: #f03;
+    background-color: #F8F07D;
+}
+
+#weather {
+    width: 40%;
+    margin: auto;
+}
+
+.weatherCallouts {
+    float:left;
+}
+
+.weatherDetails {
+    text-align: center;
+}
+
+hr {
+    height: 2px;
+    background-color: #fff8dc;
+    border: none;
+}
+
+.sl-logo {
+    font-size: 5em;
+    margin: 0;
+    text-align: center;
+}
+
+#st-one {
+    font-size: 1.2em;
 }
 
 #join {
@@ -129,6 +211,18 @@ body h3 {
 
 .location {
     text-decoration: none;
+}
+
+.banner {
+    font-size: 14px;
+    background-color: #F8F07D;
+    position: fixed;
+    top: 0;
+    padding: 10px 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 4;
 }
 
 

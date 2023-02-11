@@ -20,7 +20,7 @@
             <h2 class="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2>
         </div>
         <div>
-            <img class="logo" src="./images/coc-logo.png" alt="Jilin Chamber of Commerce Logo: a yellow bird on rime-covered branches of a tree">
+            <img class="logo" src="./images/coc-logo.webp" alt="Jilin Chamber of Commerce Logo: a yellow bird on rime-covered branches of a tree">
             <div id="title">
                 <h1>Jilin City Chamber of Commerce</h1>
                 <p id="currentDate"></p>
@@ -46,9 +46,18 @@
         <div class="body-grid">
             <div id="hero">
                 <div class="absContainer">
-                    <img id="heroImg" src="./images/NanHu.jpg" alt="View of NanHu Park during Mid Autumn Day festival.  Against the backdrop of night, a lantern dragon is lit up in yellow and floating on the lake.">
+                    <picture>
+                        <source media="(max-width: 600px)" srcset="./images/wdd230-org-Small.png">
+                        <source media="(max-width: 800px)" srcset="./images/wdd230-org-Medium.png">
+                        <source media="(max-width: 1200px)" srcset="./images/wdd230-org-Large.png">
+                        <img id="heroImg" src="./images/wdd230-org-Medium.png" alt="Chamber of Commerce Orgaizational Meeting Photograph">
+                    </picture>
                     <button class="heroJoinButton" type="button">Join the Chamber</button> 
                 </div>
+                <!-- <div class="absContainer">
+                    <img id="heroImg" src="./images/NanHu.jpg" alt="View of NanHu Park during Mid Autumn Day festival.  Against the backdrop of night, a lantern dragon is lit up in yellow and floating on the lake.">
+                    <button class="heroJoinButton" type="button">Join the Chamber</button> 
+                </div> -->
             </div>
             <div id="event">
                 <h3>Park and Play</h3>
@@ -62,7 +71,7 @@
             <div id="weather">
                 <h3>Weather</h3>
                 <h2>
-                    ⛅ 19℃
+                    ⛅ <span id="temp">-4</span>℃
                 </h2>
                 <h4>Partly Cloudy</h4>
                 <hr>
@@ -76,10 +85,10 @@
                 </div>
                 <div class="weatherDetails">
                     <div id="windSpeedNumber">
-                        <p>3 km/h</p>
+                        <p><span id="wind">15</span> km/h</p>
                     </div>
                     <div id="windChillNumber">
-                        <p>N/A</p>
+                        <p><span id="windChillFactor"></span>℃</p>
                     </div>
                 </div>
             </div>
@@ -148,6 +157,7 @@
         </div>
     </footer>
     <script src="scripts/chamber.js"></script>
+    <script src="scripts/windchill.js"></script>
 </main>
 </body>
 </html>

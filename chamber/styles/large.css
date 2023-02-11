@@ -60,6 +60,11 @@
         overflow: hidden;
         }
 
+        .heroJoinButton {
+            width: 40%;
+            font-size: 2vw;
+        }
+
     .absContainer {
         max-width: 100%; 
         overflow: hidden;

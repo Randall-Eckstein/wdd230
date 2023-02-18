@@ -71,4 +71,26 @@
         text-indent: -230px;
     }
 
+    /* Discover Page */
+
+    .discoverImage {
+        width: 35%;
+    }
+
+    .caption {
+        width: 190%;
+    }
+
+
+    #cityInfo {
+        width: 60%;
+        float: left;
+    }
+
+    #pictureHolder {
+        width: 35%;
+        float: right;
+    }
+
+
     }  /* end large */

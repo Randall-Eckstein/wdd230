@@ -71,6 +71,8 @@ footer {
     padding: 20px;
     text-align: center;
     color: #f03;
+    position: relative;
+    clear: both;
 }
 
 .footer h2 {
@@ -183,8 +185,15 @@ li a {
 
 hr {
     height: 2px;
-    background-color: #fff8dc;
     border: none;
+}
+
+.hr_dark {
+    background-color: #f03;
+}
+
+.hr_light {
+    background-color: #fff8dc;
 }
 
 .sl-logo {
@@ -233,3 +242,69 @@ body h3 {
 
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
+
+/* Discover Page */
+
+.discoverImage {
+    padding: 20px;
+    width: 80vw;
+    max-width: 90%;
+}
+
+.caption {
+    padding: 10px;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 15px #e01;
+    color: #f03;
+    font-family: 'Khula', sans-serif;
+    text-align: center;
+    width: 80vw;
+}
+
+.caption p {
+    margin-bottom: 12px;
+}
+
+#cityInfo {
+    color: #f03;
+    padding: 10px;
+    border: 2px solid #e01;
+    margin-left: 5px;
+}
+
+#cityHeading {
+    text-align: center;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+#cityHeading h1 {
+    font-size: 4em;
+    margin: 12px 0;
+}
+
+.listSection h4 {
+    font-size: 1.8em;
+    margin-bottom: 5px;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+.listSection h5 {
+    font-weight: 800;
+    padding-left: 15px;
+    margin: 4px 0;
+    font-size: 1em;
+}
+
+.listSection {
+    margin-bottom: 18px;
+}
+.listSection p {
+    margin-bottom: 8px;
+    padding-left: 20px;
+}
+
+#decoratedList li {
+    margin-bottom: 2px;
+    list-style: square;
+
+}

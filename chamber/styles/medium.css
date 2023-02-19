@@ -62,5 +62,10 @@
     .banner {
         font-size: 20px;
     }
+
+    .hover:hover {
+        box-shadow: 0 8px 35px #444;
+        width: 105%;
+    }
     
     } /* end medium */

@@ -23,3 +23,23 @@ if (date.getDay() == 2 || date.getDay() == 3){
 else {
     banner.style.display = "none";
 }
+
+
+let lastVisit = Number(window.localStorage.getItem("visits-ls"));
+
+
+
+const numberOfVisits = document.querySelector("#numVisits");
+
+if (lastVisit !== 0) {
+    numberOfVisits.textContent = lastVisit;
+}
+else {
+    numberOfVisits.textContent = "This is your first visit!"
+}
+
+lastVisit++;
+
+localStorage.setItem("visits-ls", lastVisit);
+
+

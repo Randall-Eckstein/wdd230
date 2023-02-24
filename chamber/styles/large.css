@@ -97,5 +97,29 @@
         float: right;
     }
 
+/* -------- FORM -------- */
+
+.joinForm {
+    max-width: 30rem;
+    float: left;
+    padding: 30px 30px;
+}
+
+form fieldset {
+    width: 30rem;
+}
+
+
+/* -------- TABLE ------- */
+
+.membershipLevels {
+    display: block;
+    float: right;
+    padding: 30px 30px;
+}
+
+table {
+    float: right;
+}
 
     }  /* end large */

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Randall Eckstein">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jilin City Chamber of Commerce discover page for submission in Web Design and Development course">
+    <link type="text/css" rel="stylesheet" href="../week_1/styles/normalize.css">
+    <link type="text/css" rel="stylesheet" href="./styles/small.css">
+    <link type="text/css" rel="stylesheet" href="./styles/medium.css">
+    <link type="text/css" rel="stylesheet" href="./styles/large.css">
+    <link rel="icon" href="favicon.ico">
+    <title>Discover Jilin City</title>
+</head>
+<body>
+    <main>
+        <header>
+            <div>
+                <h2 class="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2>
+            </div>
+            <div>
+                <img class="logo" src="./images/coc-logo.webp" alt="Jilin Chamber of Commerce Logo: a yellow bird on rime-covered branches of a tree">
+                <div id="title">
+                    <h1>Jilin City Chamber of Commerce</h1>
+                    <p id="currentDate"></p>
+                </div>
+            </div>
+            <nav>
+                <div class="social-media">
+                    <a href="./#"><img src="./images/Facebook.png" alt="Facebook Link"></a>
+                    <a href="./#"><img src="./images/twitter.png" alt="Twitter Link"></a>
+                    <a href="./#"><img src="./images/Mail.png" alt="Email Link"></a>
+                </div>
+                <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+                <ul id="primaryNav">
+                    <li><a href="./">Home</a></li>
+                    <li><a href="./discover.html">Discover</a></li>
+                    <li><a href="./join.html">Join</a></li>
+                    <li><a href="./#">Page 3</a></li>
+                    <li><a href="./#">Page 4</a></li>
+                </ul>
+            </nav>
+            <hr class="hr_dark">
+        </header>
+
+        <form class="joinForm" method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top">First Name<input type="text" name="fname" required></label>
+                <label class="top">Last Name<input type="text" name="lname" required></label>
+                <label class="top">Email<input type="email" name="email" placeholder="someone@email.com" required></label>
+                <label class="top">Phone<input type="tel" name="phone" placeholder="1238675309" required></label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Business Information</legend>
+                <label class="top">Business Name/Title<input type="text" name="business" required></label>
+                <label class="top">Position<input type="text" name="position" pattern="[A-Za-z0-9\s-]{7,}" title="Seven characters minimum"></label>
+                <label class="top">Tell us about yourself or your business<textarea name="businessDescription" rows="4" cols="50"></textarea></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Membership</legend>
+                <label class="sbs"><input type="radio" name="membership" value="non-Profit"> Non-Profit</label>
+                <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze</label>
+                <label class="sbs"><input type="radio" name="membership" value="silver"> Silver</label>
+                <label class="sbs"><input type="radio" name="membership" value="gold"> Gold</label>
+
+                <input type="hidden" id="date" name="date" value="CurrentDate">
+                <input type="hidden" id="time" name="time" value="CurrentTime"> 
+            </fieldset>
+            <input class="submitBtn" type="submit" value="Join Chamber of Commerce">
+
+        </form>
+
+        <!-- <button class="testDate">Push to test date and time</button> -->
+
+
+        <div class="membershipLevels">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="title" colspan="5" scope="colgroup">Membership Levels</th>
+                    </tr>
+                    <tr>
+                        <th scope="col"></th>
+                        <th class="tableHead" scope="col">Non-Profit</th>
+                        <th class="tableHead" scope="col">Bronze</th>
+                        <th class="tableHead" scope="col">Silver</th>
+                        <th class="tableHead" scope="col">Gold</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monthly Fee</td>
+                        <td class="ehks">✖</td>
+                        <td class="data">100元</td>
+                        <td class="data">300元</td>
+                        <td class="data">500元</td>
+                    </tr>
+                    <tr>
+                        <td>Trainings</td>
+                        <td class="ehks">✖</td>
+                        <td class="ehks">✖</td>
+                        <td class="check">✓</td>
+                        <td class="check">✓</td>
+                    </tr>
+                    <tr>
+                        <td>Digital Advertising</td>
+                        <td class="ehks">✖</td>
+                        <td class="data">1/month</td>
+                        <td class="data">3/month</td>
+                        <td class="data"><p>Preferential</p>
+                        <p>3/month</p>
+                    </tr>
+                    <tr>
+                        <td>Printed Advertising</td>
+                        <td class="ehks">✖</td>
+                        <td class="ehks">✖</td>
+                        <td class="ehks">✖</td>
+                        <td class="data">1/month</td>
+                    </tr>
+
+                    <tr>
+                        <td>Event Discounts</td>
+                        <td class="data">50%</td>
+                        <td class="data">10%</td>
+                        <td class="data">20%</td>
+                        <td class="data">30%</td>
+                    </tr>
+
+                </tbody>
+                </table>
+        </div>
+        
+        <footer>
+            <hr class="hr_dark">
+            <div class="footer">
+                <div id="address">
+                    <img class="logo" src="./images/coc-logo.png" alt="Jilin Chamber of Commerce Logo: a yellow bird on rime-covered branches of a tree">
+                    <h2>Jilin Chamber of Commerce</h2>
+                    <h4>#42 Lin Jiang West Road</h4>
+                    <h4>Jilin, Jilin, China 132011</h4>
+                    <a class="info" href="./">info@jilincc.org</a>
+                    <p>+86 15943299013</p>
+                    <a class="location" href=https://goo.gl/maps/Uq46YHCfg24dfHG68 target="_blank"><img src="./images/location.png" alt="Google Maps Pin">Location Map</a>
+                    <hr class="hr_dark">
+                </div>
+                <p>&copy; <span class="year"></span> Jilin City Chamber of Commerce </p>
+                <h3>Randall K. Eckstein</h3>
+                <p>WDD 230 Project</p>
+                <p>Number of visits: <span id="numVisits"></span></p>
+                <p>Last Updated: <span class="update"></span></p>
+            </div>
+        </footer>
+        <script src="scripts/chamber.js"></script>
+        <script src="scripts/windchill.js"></script>
+    </main>
+</body>
+</html>

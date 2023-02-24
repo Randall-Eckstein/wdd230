@@ -314,3 +314,128 @@ body h3 {
     list-style: square;
 
 }
+
+/* -------- THANKYOU ------- */
+  
+#thankyou {
+    text-align: center;
+    color: #e01;
+    font-family: 'Khula', sans-serif;
+}
+
+
+/* -------- FORM -------- */
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #f03;
+    border-radius: 10px;
+    padding: .75rem 2%;
+    max-width: 400px;
+
+}
+
+form legend {
+    color: #e01;
+    margin: 0 1rem;
+    padding: 0 0.5rem;
+    font-size: 1.3rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: 1rem;
+}
+
+form label.top input, form label.top select, textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #f8f07d;
+    border-radius: 4px;
+    padding: .75rem;
+    color: black;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: Black;
+    font-weight: 700;
+}
+
+
+form input.submitBtn {
+    border: none;
+    background-color: #f03;
+    color: #F8F07D;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    font-size: 1.4rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+/* -------- TABLE ------- */
+
+.membershipLevels {
+    display: none;
+}
+
+table {
+    margin: 10px auto;
+    border: thin solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 500px;
+    height: 220px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+td {
+    border: 1px solid black;
+}
+
+td, th {
+    padding: 15px 15px;
+}
+
+td {
+    border: 1px solid #888;
+}
+
+th {
+    background-color: #e01;
+    color: #F8F07D
+}
+
+.tableHead {
+    background-color: #f03;
+    border: 1px solid #f8f07d;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(255, 0, 51, 0.2);
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(248, 240, 125, 0.2);
+}
+
+td:nth-child(even) {
+    background-color: rgba(255, 0, 51, 0.1);
+}

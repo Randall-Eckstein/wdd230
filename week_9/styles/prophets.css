@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+}
+
+div.cards {
+    box-shadow: 0 -3px 15px #373;
+    background-color: #999;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 5px;
+}
+
+section {
+    background-color: steelblue;
+    text-align: center;
+}
+
+h2 {
+    color: midnightblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    margin: 0 0 0.4rem 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p.age {
+    color: midnightblue;
+    font-weight: 700;
+}

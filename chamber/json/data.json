@@ -1,0 +1,77 @@
+{
+    "members": [
+      {
+        "name": "Century Square",
+        "address":"1652 South Jilin Ave, Fengman District, Jilin City, Jilin, China, 132001",
+        "phone": "N/A",
+        "membershipLevel": "Gold",
+        "dateJoined": "15 May 2006",
+        "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/jilin_century_square.webp"
+      },
+      {
+        "name": "Jilin No. 1 High School",
+        "address":"55 Song Jiang West Road, Changyi District, Jilin City, Jilin, China 132001",
+        "phone": "+86 432 6482 6007",
+        "membershipLevel": "Gold",
+        "dateJoined": "7 January 2009",
+        "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/number_one_high_school.webp"
+      },
+      {
+      "name": "Hua Lan De Winery",
+        "address":"86 Ji Tian Gong Lu, Jiaohe, Jilin, China, 132524",
+        "phone": "+86 139 4423 7676",
+        "membershipLevel": "Silver",
+        "dateJoined": "3 March 2010",
+        "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/hua_lan_de_winery.webp"
+      },
+      {
+        "name": "Northeast Electric Power University",
+        "address":"169 Changchun Rd, Chuanying District, Jilin City, Jilin, China, 132013",
+        "phone": "+86 432 6480 6433",
+        "membershipLevel": "Silver",
+        "dateJoined": "14 April 2012",
+        "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/northeast_electrical_power_university.webp"
+      },
+      {
+        "name": "Jilin Central Hospital",
+        "address":"4 Nanjing Street, Changyi District, Jilin City, Jilin, China 132001",
+        "phone": "+86 432 6245 6181",
+        "membershipLevel": "Silver",
+        "dateJoined": "12 May 2012",
+        "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/jilin_central_hospital.webp"
+      },
+      {
+        "name": "Pizza Hut",
+        "address":"367 Hunchun Street, Changyi District, Jilin City, Jilin, China 132001",
+        "phone": "+86 432 6206 0998",
+        "membershipLevel": "Bronze",
+        "dateJoined": "6 June 2015",
+        "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/jilin_pizza_hut.webp"
+      },
+      {
+        "name": "Jilin Confucius Temple",
+        "address":"12 Wenmiao Hu Tong, Changyi District, Jilin City, Jilin, China 132001",
+        "phone": "+86 159 4329 9013",
+        "membershipLevel": "Non-Profit",
+        "dateJoined": "7 July 2015",
+        "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/jilin_confucius_temple.webp"
+      },
+      {
+        "name": "Jilin WuLa Park",
+        "address":"No. 65 Songjiang East Road, Changyi District, Jilin City, Jilin, China 132001",
+        "phone": "+86 432 6460 9666",
+        "membershipLevel": "Non-Profit",
+        "dateJoined": "5 August 2015",
+        "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/jilin_wula_park.webp"
+      },
+      {
+        "name": "Bei Da Hu Ski Resort",
+        "address":"CJCH+CGR, Yongji County, Jilin, Jilin City, Jilin, China, 132224",
+        "phone": "+86 400 012 3222",
+        "membershipLevel": "Gold",
+        "dateJoined": "25 October 2015",
+        "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/bei_da_hu_resort.webp"
+      }
+    ]
+  }
+  

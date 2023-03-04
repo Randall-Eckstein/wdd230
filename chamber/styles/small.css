@@ -226,7 +226,6 @@ body h3 {
 .banner {
     font-size: 14px;
     background-color: #F8F07D;
-    position: fixed;
     top: 0;
     padding: 10px 0;
     margin: 0;
@@ -234,6 +233,7 @@ body h3 {
     text-align: center;
     z-index: 4;
 }
+
 
 
 #hamburgerBtn span:nth-child(1) {display: block;}
@@ -438,3 +438,110 @@ tr:nth-child(odd) {
 td:nth-child(even) {
     background-color: rgba(255, 0, 51, 0.1);
 }
+
+/* -------- Directory -------- */
+
+div.directoryControl {
+
+    text-align: center;
+    padding: 20px;
+    align-content: center;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+div.directoryControl button {
+    margin: 20px;
+    width: 5rem;
+    height: 2.5rem;
+    background-color: #f03;
+    color: #f8f07d;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+div.cards {
+    color: #9c2c13;
+    font-family: 'Khula', sans-serif;
+}
+
+div.cards section h2 {
+    font-family: 'Gentium Book Plus', serif;
+}
+
+div.cards section p {
+    margin-top: 8px;
+
+}
+
+div.directoryControl button:hover {
+    background-color: rgba(255, 0, 51, 0.6);
+}
+
+div.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 5px;
+}
+
+div.grid .address, div.grid .phone, div.grid section h4.long  {
+    display: block;
+}
+
+div.grid section h4.short {
+    display: none;
+}
+
+div.list {
+    display: flex;
+    flex-direction: column;
+}
+
+div.list section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+div.list img, .address, .phone, div.list section h4.long  {
+    display: none;
+}
+
+div.list section:nth-child(even) {
+    background-color: rgba(248,240,125,0.5);
+}
+
+section.member {
+    background-color: #F8F07D;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.Gold, .Silver, .Bronze, .Non-Profit {
+    height: 30px;
+    align-self: center;
+    line-height: 30px;
+    background-color: rgba(0,0,0,0.8);
+    max-width: 320px;
+    min-width: 70px;
+    margin: auto;
+}
+
+.joined {
+    margin-top: 20px;
+}
+
+h4.Gold {
+    color: gold;
+}
+
+h4.Silver {
+    color: silver;
+}
+
+h4.Bronze {
+    color: chocolate;
+}
+
+h4.Non-Profit {
+    color: mediumorchid;
+}
+

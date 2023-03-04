@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Randall Eckstein">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Jilin City Chamber of Commerce discover page for submission in Web Design and Development course">
+    <meta name="description" content="Jilin City Chamber of Commerce directory page for submission in Web Design and Development course">
     <link type="text/css" rel="stylesheet" href="../week_1/styles/normalize.css">
     <link type="text/css" rel="stylesheet" href="./styles/small.css">
     <link type="text/css" rel="stylesheet" href="./styles/medium.css">
@@ -16,9 +16,7 @@
 <body>
     <main>
         <header>
-            <div>
-                <h2 class="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2>
-            </div>
+            <div><h2 class="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2></div>
             <div>
                 <img class="logo" src="./images/coc-logo.webp" alt="Jilin Chamber of Commerce Logo: a yellow bird on rime-covered branches of a tree">
                 <div id="title">
@@ -37,14 +35,19 @@
                     <li><a href="./">Home</a></li>
                     <li><a href="./discover.html">Discover</a></li>
                     <li><a href="./join.html">Join</a></li>
-                    <li><a href="./#">Page 3</a></li>
+                    <li><a href="./directory.html">Member Directory</a></li>
                     <li><a href="./#">Page 4</a></li>
                 </ul>
             </nav>
             <hr class="hr_dark">
         </header>
 
-        <div class="cards"></div>
+        <div class="directoryControl">
+            <button id="gridButton">Grid</button>
+            <button id="listButton">List</button>
+        </div>
+
+        <div class="cards grid"></div>
         
         <footer>
             <hr class="hr_dark">
@@ -67,6 +70,7 @@
             </div>
         </footer>
         <script src="scripts/directory.js"></script>
+        <script src="scripts/chamber.js"></script>
     </main>
 </body>
 </html>

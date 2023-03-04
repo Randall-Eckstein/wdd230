@@ -6,7 +6,8 @@
         "phone": "N/A",
         "membershipLevel": "Gold",
         "dateJoined": "15 May 2006",
-        "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/jilin_century_square.webp"
+        "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/jilin_century_square.webp",
+        "size": [440, 293]
       },
       {
         "name": "Jilin No. 1 High School",
@@ -14,7 +15,8 @@
         "phone": "+86 432 6482 6007",
         "membershipLevel": "Gold",
         "dateJoined": "7 January 2009",
-        "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/number_one_high_school.webp"
+        "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/number_one_high_school.webp",
+        "size": [287, 510]
       },
       {
       "name": "Hua Lan De Winery",
@@ -22,7 +24,8 @@
         "phone": "+86 139 4423 7676",
         "membershipLevel": "Silver",
         "dateJoined": "3 March 2010",
-        "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/hua_lan_de_winery.webp"
+        "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/hua_lan_de_winery.webp",
+        "size": [440, 330]
       },
       {
         "name": "Northeast Electric Power University",
@@ -30,7 +33,8 @@
         "phone": "+86 432 6480 6433",
         "membershipLevel": "Silver",
         "dateJoined": "14 April 2012",
-        "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/northeast_electrical_power_university.webp"
+        "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/northeast_electrical_power_university.webp",
+        "size": [440, 330]
       },
       {
         "name": "Jilin Central Hospital",
@@ -38,7 +42,8 @@
         "phone": "+86 432 6245 6181",
         "membershipLevel": "Silver",
         "dateJoined": "12 May 2012",
-        "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/jilin_central_hospital.webp"
+        "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/jilin_central_hospital.webp",
+        "size": [420, 440]
       },
       {
         "name": "Pizza Hut",
@@ -46,7 +51,8 @@
         "phone": "+86 432 6206 0998",
         "membershipLevel": "Bronze",
         "dateJoined": "6 June 2015",
-        "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/jilin_pizza_hut.webp"
+        "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/jilin_pizza_hut.webp",
+        "size": [440, 294]
       },
       {
         "name": "Jilin Confucius Temple",
@@ -54,7 +60,8 @@
         "phone": "+86 159 4329 9013",
         "membershipLevel": "Non-Profit",
         "dateJoined": "7 July 2015",
-        "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/jilin_confucius_temple.webp"
+        "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/jilin_confucius_temple.webp",
+        "size": [440, 330]
       },
       {
         "name": "Jilin WuLa Park",
@@ -62,7 +69,8 @@
         "phone": "+86 432 6460 9666",
         "membershipLevel": "Non-Profit",
         "dateJoined": "5 August 2015",
-        "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/jilin_wula_park.webp"
+        "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/jilin_wula_park.webp",
+        "size": [440, 292]
       },
       {
         "name": "Bei Da Hu Ski Resort",
@@ -70,7 +78,8 @@
         "phone": "+86 400 012 3222",
         "membershipLevel": "Gold",
         "dateJoined": "25 October 2015",
-        "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/bei_da_hu_resort.webp"
+        "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/bei_da_hu_resort.webp",
+        "size": [440, 330]
       }
     ]
   }

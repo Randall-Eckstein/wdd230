@@ -7,7 +7,7 @@
         "membershipLevel": "Gold",
         "dateJoined": "15 May 2006",
         "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/jilin_century_square.webp",
-        "size": [440, 293]
+        "size": [320, 213]
       },
       {
         "name": "Jilin No. 1 High School",
@@ -25,7 +25,7 @@
         "membershipLevel": "Silver",
         "dateJoined": "3 March 2010",
         "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/hua_lan_de_winery.webp",
-        "size": [440, 330]
+        "size": [320, 240]
       },
       {
         "name": "Northeast Electric Power University",
@@ -34,7 +34,7 @@
         "membershipLevel": "Silver",
         "dateJoined": "14 April 2012",
         "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/northeast_electrical_power_university.webp",
-        "size": [440, 330]
+        "size": [320, 240]
       },
       {
         "name": "Jilin Central Hospital",
@@ -43,7 +43,7 @@
         "membershipLevel": "Silver",
         "dateJoined": "12 May 2012",
         "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/jilin_central_hospital.webp",
-        "size": [420, 440]
+        "size": [320, 335]
       },
       {
         "name": "Pizza Hut",
@@ -52,7 +52,7 @@
         "membershipLevel": "Bronze",
         "dateJoined": "6 June 2015",
         "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/jilin_pizza_hut.webp",
-        "size": [440, 294]
+        "size": [320, 213]
       },
       {
         "name": "Jilin Confucius Temple",
@@ -61,7 +61,7 @@
         "membershipLevel": "Non-Profit",
         "dateJoined": "7 July 2015",
         "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/jilin_confucius_temple.webp",
-        "size": [440, 330]
+        "size": [320, 240]
       },
       {
         "name": "Jilin WuLa Park",
@@ -70,7 +70,7 @@
         "membershipLevel": "Non-Profit",
         "dateJoined": "5 August 2015",
         "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/jilin_wula_park.webp",
-        "size": [440, 292]
+        "size": [320, 212]
       },
       {
         "name": "Bei Da Hu Ski Resort",
@@ -79,7 +79,7 @@
         "membershipLevel": "Gold",
         "dateJoined": "25 October 2015",
         "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/bei_da_hu_resort.webp",
-        "size": [440, 330]
+        "size": [320, 240]
       }
     ]
   }

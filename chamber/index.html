@@ -47,10 +47,10 @@
             <div id="hero">
                 <div class="absContainer">
                     <picture>
-                        <source media="(max-width: 600px)" srcset="./images/wdd230-org-Small.png">
-                        <source media="(max-width: 800px)" srcset="./images/wdd230-org-Medium.png">
-                        <source media="(max-width: 1200px)" srcset="./images/wdd230-org-Large.png">
-                        <img id="heroImg" src="./images/wdd230-org-Medium.png" alt="Chamber of Commerce Orgaizational Meeting Photograph">
+                        <source media="(max-width: 600px)" srcset="./images/NanHu-Small.jpg">
+                        <source media="(max-width: 800px)" srcset="./images/NanHu-Medium.jpg">
+                        <source media="(max-width: 1200px)" srcset="./images/NanHu-Large.jpg">
+                        <img id="heroImg" src="./images/NanHu-Medium.jpg" alt="Chamber of Commerce Organizational Meeting Photograph">
                     </picture>
                     <button class="heroJoinButton" type="button">Join the Chamber</button> 
                 </div>
@@ -67,9 +67,9 @@
             <div id="weather">
                 <h3>Weather</h3>
                 <h2>
-                    ⛅ <span id="temp">-4</span>℃
+                    <img src="" alt="" id="weather-icon"> <span id="temp"></span> &deg;C
                 </h2>
-                <h4>Partly Cloudy</h4>
+                <h4 id="weather-desc"></h4>
                 <hr class="hr_light">
                 <div class="weatherCallouts">
                     <div id="windSpeed">
@@ -84,7 +84,7 @@
                         <p><span id="wind">15</span> km/h</p>
                     </div>
                     <div id="windChillNumber">
-                        <p><span id="windChillFactor"></span>℃</p>
+                        <p><span id="windChillFactor"></span></p>
                     </div>
                 </div>
             </div>
@@ -149,6 +149,8 @@
             <p>&copy; <span class="year"></span> Jilin City Chamber of Commerce </p>
             <h3>Randall K. Eckstein</h3>
             <p>WDD 230 Project</p>
+            <p>Weather information provided by <a href="https://openweathermap.org">openweathermap.org</a></p>
+            <p>Number of visits: <span id="numVisits"></span></p>
             <p>Last Updated: <span class="update"></span></p>
         </div>
     </footer>

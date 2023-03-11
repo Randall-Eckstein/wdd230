@@ -41,17 +41,3 @@ else {
 lastVisit++;
 
 localStorage.setItem("visits-ls", lastVisit);
-
-const joinDate = document.getElementById("date");
-const joinTime = document.getElementById("time");
-
-joinDate.value = (date.getMonth() + 1) + "/" + date.getDate() + "/" + date.getFullYear();
-joinTime.value = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
-
-function showDateTime() {
-    console.log(joinDate.value);
-    console.log(joinTime.value);
-}
-
-const testDateTimeButton = document.querySelector(".testDate");
-testDateTimeButton.onclick = showDateTime;

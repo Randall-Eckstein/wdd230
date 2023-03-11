@@ -170,9 +170,20 @@ li a {
 }
 
 #weather {
-    width: 40%;
+    width: 60%;
     margin: auto;
 }
+
+#weather h2, #weather h4 {
+    text-align: center;
+}
+
+#weather h2 img {
+    width: 90px;
+    margin-bottom: -30px;
+}
+
+
 
 .weatherCallouts {
     float:left;

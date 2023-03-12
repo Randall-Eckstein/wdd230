@@ -5,7 +5,7 @@
     --bkgYellow: #fff8a7;
     --fontYellow: #f8f07D;
     --red: #f00;
-    --darkRed: #a30404;
+    --darkRed: #ab0404;
     --redHighlight: #e01;
 }
 
@@ -92,13 +92,13 @@ footer {
 }
 
 .footer a {
-    color: var(--redHighlight);
+    color: var(--darkRed);
 }
 
 li a {
     display: block;
     background-color: #f5f5f5;
-    color: red;
+    color: var(--darkRed);
     text-decoration: none;
     padding-top: 3px;
     text-align: center;

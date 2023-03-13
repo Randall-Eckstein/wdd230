@@ -7,7 +7,7 @@
         "membershipLevel": "Gold",
         "dateJoined": "15 May 2006",
         "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/jilin_century_square.webp",
-        "size": [320, 213]
+        "size": [320, 240]
       },
       {
         "name": "Jilin No. 1 High School",
@@ -16,7 +16,7 @@
         "membershipLevel": "Gold",
         "dateJoined": "7 January 2009",
         "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/number_one_high_school.webp",
-        "size": [287, 510]
+        "size": [320, 240]
       },
       {
       "name": "Hua Lan De Winery",
@@ -43,7 +43,7 @@
         "membershipLevel": "Silver",
         "dateJoined": "12 May 2012",
         "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/jilin_central_hospital.webp",
-        "size": [320, 335]
+        "size": [320, 240]
       },
       {
         "name": "Pizza Hut",
@@ -52,7 +52,7 @@
         "membershipLevel": "Bronze",
         "dateJoined": "6 June 2015",
         "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/jilin_pizza_hut.webp",
-        "size": [320, 213]
+        "size": [320, 240]
       },
       {
         "name": "Jilin Confucius Temple",
@@ -70,7 +70,7 @@
         "membershipLevel": "Non-Profit",
         "dateJoined": "5 August 2015",
         "imageurl": "https://raw.githubusercontent.com/Randall-Eckstein/wdd230/main/jilin_pictures/jilin_wula_park.webp",
-        "size": [320, 212]
+        "size": [320, 240]
       },
       {
         "name": "Bei Da Hu Ski Resort",

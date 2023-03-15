@@ -421,18 +421,15 @@ form label.top input:required:valid {
 
 /* -------- TABLE ------- */
 
-.membershipLevels {
-    display: none;
-}
-
 table {
-    margin: 10px auto;
+    margin: 10px 10px;
     border: thin solid black;
     border-collapse: collapse;
     text-align: center;
-    width: 500px;
-    height: 220px;
+    width: 320px;
+    height: 100px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 8px;
 }
 
 td {

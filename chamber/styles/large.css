@@ -97,29 +97,27 @@
         float: right;
     }
 
-/* -------- FORM -------- */
+    .joinForm {
+        max-width: 320px;
+        float: left;
+        padding: 10px 0 0 10px;
+    }
 
-.joinForm {
-    max-width: 30rem;
-    float: left;
-    padding: 30px 30px;
-}
+    form fieldset {
+        width: 320px;
+    }
 
-form fieldset {
-    width: 30rem;
-}
+    /* -------- TABLE ------- */
 
-
-/* -------- TABLE ------- */
-
-.membershipLevels {
-    display: block;
-    float: right;
-    padding: 30px 30px;
-}
-
-table {
-    float: right;
-}
-
+    .membershipLevels {
+        display: block;
+        float: right;
+        padding: 10px 10px;
+    }
+    
+    table {
+        float: right;
+        width: 500px;
+        font-size: 1rem;
+    }
     }  /* end large */

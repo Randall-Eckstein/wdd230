@@ -76,4 +76,9 @@
         float: right;
     }
     
+    table {
+        font-size: 1rem;
+    }
+
+
     } /* end medium */

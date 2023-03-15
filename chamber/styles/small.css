@@ -170,12 +170,17 @@ li a {
     color: var(--darkRed);
 }
 
-#event, #weather, #news, #spotlight-container, #sl-one, #sl-two, #sl-three, #join {
+#event, #weather, #news, #spotlight-container, .sl-card, #join, #contact_methods, .contact-card {
     box-shadow: 0 2px 15px var(--redHighlight);
     padding: 10px;
     margin: 20px;
     color: var(--darkRed);
     background-color: var(--bkgYellow);
+    text-align: center;
+}
+
+.sl-name {
+    font-size: 1.5rem;
 }
 
 #weather {
@@ -218,6 +223,11 @@ hr {
 .sl-logo {
     font-size: 5em;
     margin: 0;
+    text-align: center;
+}
+
+.sl-blurb {
+    font-size: 1em;
     text-align: center;
 }
 
@@ -389,15 +399,15 @@ form label.sbs {
 }
 
 
-form input.submitBtn {
+input.submitBtn {
     border: none;
     background-color: var(--darkRed);
     color: var(--fontYellow);
     border-radius: 1rem;
     padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
+    margin: -1rem 0 2rem 2%;
     width: 96%;
-    max-width: 20rem;
+    max-width: 22rem;
     font-size: 1.4rem;
 }
 
@@ -565,3 +575,32 @@ h4.Non-Profit {
     color: mediumorchid;
 }
 
+/* .contact {
+    display: flex;
+} */
+
+#contact_membership {
+    /* max-width: 40%; */
+    box-shadow: 0 2px 15px var(--redHighlight);
+    padding: 10px;
+    margin: 20px;
+    color: var(--darkRed);
+    background-color: var(--bkgYellow);
+}
+
+#contact_membership h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact_membership p {
+    margin-bottom: 10px;
+    text-indent: 1.8rem;
+}
+
+
+
+#contact_form {
+    max-width: 400px;
+    margin: auto;
+}

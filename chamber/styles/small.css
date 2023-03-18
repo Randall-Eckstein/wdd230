@@ -170,6 +170,10 @@ li a {
     color: var(--darkRed);
 }
 
+.heroJoinButton, .joinBoxButton, input.submitBtn {
+    cursor: pointer;
+}
+
 #event, #weather, #news, #spotlight-container, .sl-card, #join, #contact_methods, .contact-card {
     box-shadow: 0 2px 15px var(--redHighlight);
     padding: 10px;
@@ -177,6 +181,10 @@ li a {
     color: var(--darkRed);
     background-color: var(--bkgYellow);
     text-align: center;
+}
+
+#eventImg {
+    display: none;
 }
 
 .sl-name {

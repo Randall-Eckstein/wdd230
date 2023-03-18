@@ -53,6 +53,14 @@
         grid-row: 5/6;
     }
 
+    #eventImg {
+        display: inline;
+        padding-top: 30px;
+        width: 90%;
+        max-width: 240px;
+    }
+    
+
     #weather {
         grid-column: 2/3;
         grid-row: 5/6;

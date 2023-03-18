@@ -20,7 +20,9 @@
                 <h2 class="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2>
             </div>
             <div>
-                <img class="logo" src="./images/coc-logo.webp" alt="Jilin Chamber of Commerce Logo: a yellow bird on rime-covered branches of a tree">
+                <a href="./">
+                    <img class="logo" src="./images/coc-logo.webp" alt="Jilin Chamber of Commerce Logo: a yellow bird on rime-covered branches of a tree">
+                </a>
                 <div id="title">
                     <h1>Jilin City Chamber of Commerce</h1>
                     <p id="currentDate"></p>
@@ -68,30 +70,32 @@
                     <h4>&#9993; randallinjilincity@gmail.com</h4>
                 </div>
             </div>
+            <div id="contact_form">
+                <form class="contactForm" method="get" action="thankyou.html">
+                    
+                    <fieldset>
+                        <legend>Contact Form</legend>
+                        <label class="top">First Name<input type="text" name="fname" required></label>
+                        <label class="top">Last Name<input type="text" name="lname" required></label>
+                        <label class="top">Email<input type="email" name="email" placeholder="someone@email.com" required></label>
+                        <label class="top">Phone<input type="tel" name="phone" placeholder="1238675309" required></label>
+                        <label class="top">What would you like to know?<textarea name="businessDescription" rows="4" cols="50"></textarea></label>
+                    </fieldset>
+    
+                    <input class="submitBtn" type="submit" value="Contact the COC">
+                </form>
+            </div>
         </section>
 
-        <div id="contact_form">
-            <form class="contactForm" method="get" action="thankyou.html">
-                
-                <fieldset>
-                    <legend>Contact Form</legend>
-                    <label class="top">First Name<input type="text" name="fname" required></label>
-                    <label class="top">Last Name<input type="text" name="lname" required></label>
-                    <label class="top">Email<input type="email" name="email" placeholder="someone@email.com" required></label>
-                    <label class="top">Phone<input type="tel" name="phone" placeholder="1238675309" required></label>
-                    <label class="top">What would you like to know?<textarea name="businessDescription" rows="4" cols="50"></textarea></label>
-                </fieldset>
-
-                <input class="submitBtn" type="submit" value="Contact the COC">
-            </form>
-        </div>
         
         <hr class="hr_dark">
 
         <footer>
             <div class="footer">
                 <div id="address">
-                    <img class="logo" src="./images/coc-logo.png" alt="Jilin Chamber of Commerce Logo: a yellow bird on rime-covered branches of a tree">
+                    <a href="./">
+                        <img class="logo" src="./images/coc-logo.webp" alt="Jilin Chamber of Commerce Logo: a yellow bird on rime-covered branches of a tree">
+                    </a>
                     <h2>Jilin Chamber of Commerce</h2>
                     <h4>#42 Lin Jiang West Road</h4>
                     <h4>Jilin, Jilin, China 132011</h4>

@@ -20,7 +20,9 @@
                 <h2 class="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2>
             </div>
             <div>
-                <img class="logo" src="./images/coc-logo.webp" alt="Jilin Chamber of Commerce Logo: a yellow bird on rime-covered branches of a tree">
+                <a href="./">
+                    <img class="logo" src="./images/coc-logo.webp" alt="Jilin Chamber of Commerce Logo: a yellow bird on rime-covered branches of a tree">
+                </a>
                 <div id="title">
                     <h1>Jilin City Chamber of Commerce</h1>
                     <p id="currentDate"></p>
@@ -44,98 +46,102 @@
             <hr class="hr_dark">
         </header>
 
-        <form class="joinForm" method="get" action="thankyou.html">
-            <fieldset>
-                <legend>Personal Information</legend>
-                <label class="top">First Name<input type="text" name="fname" required></label>
-                <label class="top">Last Name<input type="text" name="lname" required></label>
-                <label class="top">Email<input type="email" name="email" placeholder="someone@email.com" required></label>
-                <label class="top">Phone<input type="tel" name="phone" placeholder="1238675309" required></label>
-            </fieldset>
-            
-            <fieldset>
-                <legend>Business Information</legend>
-                <label class="top">Business Name/Title<input type="text" name="business" required></label>
-                <label class="top">Position<input type="text" name="position" pattern="[A-Za-z0-9\s-]{7,}" title="Seven characters minimum"></label>
-                <label class="top">Tell us about yourself or your business<textarea name="businessDescription" rows="4" cols="50"></textarea></label>
-            </fieldset>
+        <div class="joinGrid">
+            <form class="joinForm" method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label class="top">First Name<input type="text" name="fname" required></label>
+                    <label class="top">Last Name<input type="text" name="lname" required></label>
+                    <label class="top">Email<input type="email" name="email" placeholder="someone@email.com" required></label>
+                    <label class="top">Phone<input type="tel" name="phone" placeholder="1238675309" required></label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Business Information</legend>
+                    <label class="top">Business Name/Title<input type="text" name="business" required></label>
+                    <label class="top">Position<input type="text" name="position" pattern="[A-Za-z0-9\s-]{7,}" title="Seven characters minimum"></label>
+                    <label class="top">Tell us about yourself or your business<textarea name="businessDescription" rows="4" cols="50"></textarea></label>
+                </fieldset>
 
-            <fieldset>
-                <legend>Membership</legend>
-                <label class="sbs"><input type="radio" name="membership" value="non-Profit"> Non-Profit</label>
-                <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze</label>
-                <label class="sbs"><input type="radio" name="membership" value="silver"> Silver</label>
-                <label class="sbs"><input type="radio" name="membership" value="gold"> Gold</label>
+                <fieldset>
+                    <legend>Membership</legend>
+                    <label class="sbs"><input type="radio" name="membership" value="non-Profit"> Non-Profit</label>
+                    <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze</label>
+                    <label class="sbs"><input type="radio" name="membership" value="silver"> Silver</label>
+                    <label class="sbs"><input type="radio" name="membership" value="gold"> Gold</label>
 
-                <input type="hidden" id="date" name="date" value="CurrentDate">
-                <input type="hidden" id="time" name="time" value="CurrentTime"> 
-            </fieldset>
-            <input class="submitBtn" type="submit" value="Join Chamber of Commerce">
+                    <input type="hidden" id="date" name="date" value="CurrentDate">
+                    <input type="hidden" id="time" name="time" value="CurrentTime"> 
+                </fieldset>
+                <input class="submitBtn" type="submit" value="Join Chamber of Commerce">
 
-        </form>
+            </form>
 
-        <div class="membershipLevels">
-            <table>
-                <thead>
-                    <tr>
-                        <th class="title" colspan="5" scope="colgroup">Membership Levels</th>
-                    </tr>
-                    <tr>
-                        <th scope="col"></th>
-                        <th class="tableHead" scope="col">Non-Profit</th>
-                        <th class="tableHead" scope="col">Bronze</th>
-                        <th class="tableHead" scope="col">Silver</th>
-                        <th class="tableHead" scope="col">Gold</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Monthly Fee</td>
-                        <td class="ehks">✖</td>
-                        <td class="data">100元</td>
-                        <td class="data">300元</td>
-                        <td class="data">500元</td>
-                    </tr>
-                    <tr>
-                        <td>Trainings</td>
-                        <td class="ehks">✖</td>
-                        <td class="ehks">✖</td>
-                        <td class="check">✓</td>
-                        <td class="check">✓</td>
-                    </tr>
-                    <tr>
-                        <td>Digital Advertising</td>
-                        <td class="ehks">✖</td>
-                        <td class="data">1/month</td>
-                        <td class="data">3/month</td>
-                        <td class="data"><p>Preferential</p>
-                        <p>3/month</p>
-                    </tr>
-                    <tr>
-                        <td>Printed Advertising</td>
-                        <td class="ehks">✖</td>
-                        <td class="ehks">✖</td>
-                        <td class="ehks">✖</td>
-                        <td class="data">1/month</td>
-                    </tr>
+            <div class="membershipLevels">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="title" colspan="5" scope="colgroup">Membership Levels</th>
+                        </tr>
+                        <tr>
+                            <th scope="col"></th>
+                            <th class="tableHead" scope="col">Non-Profit</th>
+                            <th class="tableHead" scope="col">Bronze</th>
+                            <th class="tableHead" scope="col">Silver</th>
+                            <th class="tableHead" scope="col">Gold</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monthly Fee</td>
+                            <td class="ehks">✖</td>
+                            <td class="data">100元</td>
+                            <td class="data">300元</td>
+                            <td class="data">500元</td>
+                        </tr>
+                        <tr>
+                            <td>Trainings</td>
+                            <td class="ehks">✖</td>
+                            <td class="ehks">✖</td>
+                            <td class="check">✓</td>
+                            <td class="check">✓</td>
+                        </tr>
+                        <tr>
+                            <td>Digital Advertising</td>
+                            <td class="ehks">✖</td>
+                            <td class="data">1/month</td>
+                            <td class="data">3/month</td>
+                            <td class="data"><p>Preferential</p>
+                            <p>3/month</p>
+                        </tr>
+                        <tr>
+                            <td>Printed Advertising</td>
+                            <td class="ehks">✖</td>
+                            <td class="ehks">✖</td>
+                            <td class="ehks">✖</td>
+                            <td class="data">1/month</td>
+                        </tr>
 
-                    <tr>
-                        <td>Event Discounts</td>
-                        <td class="data">50%</td>
-                        <td class="data">10%</td>
-                        <td class="data">20%</td>
-                        <td class="data">30%</td>
-                    </tr>
+                        <tr>
+                            <td>Event Discounts</td>
+                            <td class="data">50%</td>
+                            <td class="data">10%</td>
+                            <td class="data">20%</td>
+                            <td class="data">30%</td>
+                        </tr>
 
-                </tbody>
-                </table>
+                    </tbody>
+                    </table>
+            </div>
         </div>
         
         <footer>
             <hr class="hr_dark">
             <div class="footer">
                 <div id="address">
-                    <img class="logo" src="./images/coc-logo.png" alt="Jilin Chamber of Commerce Logo: a yellow bird on rime-covered branches of a tree">
+                    <a href="./">
+                        <img class="logo" src="./images/coc-logo.webp" alt="Jilin Chamber of Commerce Logo: a yellow bird on rime-covered branches of a tree">
+                    </a>
                     <h2>Jilin Chamber of Commerce</h2>
                     <h4>#42 Lin Jiang West Road</h4>
                     <h4>Jilin, Jilin, China 132011</h4>

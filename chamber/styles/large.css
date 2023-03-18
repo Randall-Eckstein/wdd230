@@ -97,27 +97,49 @@
         float: right;
     }
 
-    .joinForm {
-        max-width: 320px;
-        float: left;
-        padding: 10px 0 0 10px;
-    }
-
     form fieldset {
         width: 320px;
     }
 
     /* -------- TABLE ------- */
 
-    .membershipLevels {
-        display: block;
-        float: right;
-        padding: 10px 10px;
+    .joinGrid {
+        grid-template-columns: 47% 53%;
     }
-    
+
     table {
-        float: right;
-        width: 500px;
         font-size: 1rem;
+        float: left;
+        width: 100px;
+        margin: 20px;
     }
+
+    form.joinForm {
+        margin-left: 10vw;
+        width: 325px;
+    }
+
+    .contact {
+        grid-template-columns: 2fr 2fr 1fr;
+    }
+
+    #contact_membership {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #contact_form {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    #contact_methods {
+        grid-column: 3/4;
+        grid-row: 1/2;
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+    }
+
+
     }  /* end large */

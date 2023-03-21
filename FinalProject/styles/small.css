@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Gupter&family=Indie+Flower&family=Quicksand&display=swap');
+
+:root {
+    /* ---- Colors ---- */
+    --strawberry: #C9382F;
+    --green: #839D60;
+    --broccoliGreen: #396100;
+    --pomegranateRed: #790512;
+    --lemonYellow: #F8F07D;
+    --meringueYellow: #FBFBE4;
+    --blueberryPurple: #6A1093;
+    --flavorText: #020202;
+    --formBlue: #0F00DB;
+
+    /* ---- Fonts ---- */
+    --serif: 'Gupter', serif;
+    --cursive: 'Indie Flower', 'Trebuchet MS', cursive;
+    --sans-serif: 'Quicksand', sans-serif;
+
+    /* ---- Page Defaults ---- */
+    margin: 20px;
+}
+
+
+/* -------- Site Map -------- */
+
+hr {
+    width: 80%;
+}
+
+.hr_green {
+    height: 2px;
+    background-color: var(--green);
+}
+
+.hr_red {
+    height: 6px;
+    margin-top: -10px;
+    background-color: var(--strawberry);
+}
+
+#siteplanTable {
+    border: black solid 2px;
+    border-collapse: collapse;
+}
+
+#siteplanTable td {
+    border: black solid 1px;
+    padding: 5px;
+}
+
+.design-table {
+    font-family: var(--sans-serif);
+    color: var(--flavorText);
+}
+
+#header-color {
+    color: var(--pomegranateRed);
+}
+
+#header-text {
+    font-family: var(--serif);
+    color: var(--pomegranateRed);
+    font-size: 4vw;
+}
+
+#nav-color {
+    background-color: var(--lemonYellow);
+    color: var(--blueberryPurple);
+}
+
+#nav-text {
+    background-color: var(--meringueYellow);
+    color: var(--blueberryPurple);
+    font-size: 1.3em;
+    font-family: var(--sans-serif);
+}
+
+#h1-text {
+    color: var(--broccoliGreen);
+    font-size: 1.4em;
+    font-family: var(--serif);
+}
+
+#paragraph-text {
+    color: var(--flavorText);
+    font-size: 1.3em;
+    font-family: var(--sans-serif);
+}
+
+#table-text {
+    color: var(--flavorText);
+    font-size: 1.1em;
+    font-family: var(--sans-serif);
+}
+
+#form-legend {
+    color: var(--broccoliGreen);
+    font-size: 1.2em;
+    font-family: var(--serif);
+}
+
+#form-prompt {
+    background-color: var(--meringueYellow);
+    color: var(--pomegranateRed);
+    font-size: 1em;
+    font-family: var(--sans-serif);
+}
+
+#form-text {
+    background-color: var(--meringueYellow);
+    color: var(--formBlue);
+    font-size: 1.1em;
+    font-family: var(--sans-serif);
+}
+
+#recipe-text {
+    color: var(--blueberryPurple);
+    font-size: 1.4em;
+    font-family: var(--cursive);
+}
+
+.purpose h1, .audience h1, .sitemap h1, .colorScheme h1, .typography h1, .wireframe h1 {
+    color: var(--broccoliGreen);
+    font-family: var(--serif);
+}
+
+.purpose p, .audience p, .sitemap p, .typography p, .wireframe p {
+    color: var(--flavorText);
+    font-family: var(--sans-serif);
+    margin-top: -20px;
+}

@@ -39,6 +39,18 @@ hr {
     background-color: var(--strawberry);
 }
 
+header div h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: var(--serif);
+    color: var(--pomegranateRed);
+}
+
+#siteplan_main div p {
+    font-size: 1.3em;
+    color: var(--flavorText);
+}
+
 #siteplanTable {
     border: black solid 2px;
     border-collapse: collapse;
@@ -52,6 +64,7 @@ hr {
 .design-table {
     font-family: var(--sans-serif);
     color: var(--flavorText);
+    font-size: 1.1em;
 }
 
 #header-color {
@@ -61,7 +74,8 @@ hr {
 #header-text {
     font-family: var(--serif);
     color: var(--pomegranateRed);
-    font-size: 4vw;
+    font-size: 3em;
+    margin: 0;
 }
 
 #nav-color {
@@ -129,4 +143,32 @@ hr {
     color: var(--flavorText);
     font-family: var(--sans-serif);
     margin-top: -20px;
+}
+
+#gupter {
+    font-family: var(--serif);
+}
+
+#quicksand {
+    font-family: var(--sans-serif);
+}
+
+#indieFlower {
+    font-family: var(--cursive);
+}
+
+#wireframeContainer {
+    display: flex;
+}
+
+#wireframeContainer div {
+    padding: 5px;
+}
+
+#wireframeContainer div p {
+    padding-top: 20px;
+    text-align: center;
+    color: var(--flavorText);
+    font-family: var(--sans-serif);
+    font-size: 1.2em;
 }

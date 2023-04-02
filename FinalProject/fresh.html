@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Randall Eckstein">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bountiful Foods website promoting Southern California and fresh fruit with juices and nutrition information">
+    <meta name="description" content="Bountiful Foods website Fresh page offers users the chance to design a drink with three fruits and display the nutritional content of their choices.">
     <link type="text/css" ref="stylesheet" href="./styles/normalize.css">
     <link type="text/css" rel="stylesheet" href="./styles/small.css">
     <link type="text/css" rel="stylesheet" href="./styles/medium.css">
     <link type="text/css" rel="stylesheet" href="./styles/large.css">
-    <title>Bountiful Foods</title>
+    <title>Fresh Drink Mixes</title>
 </head>
 <main>
     <header>
@@ -37,49 +37,45 @@
             <hr class="hr_green">
             <hr class="hr_red">
         </nav>
-
-
     </header>
+
     <body>
-        <div class="index_cards">
-            <div id="information">
-                <h1>Southern California Coast</h1>
-                <p>Southern california is a beautiful place for fruit growing.  From grapes for wine to almonds, oranges and lemons, nature's bounty is well represented in Southern California.</p>
-            </div>
-            <div id="call-to-action">
-                <h1>Make your own fruit drink!</h1>
-                <p>Try our fruit drink mixing portal.  You can mix a fruit smoothy and easily tell the calories and benefits!  Try it now!</p>
-                <form action="./fresh.html">
-                    <button class="fresh-button">Mix a Drink</button> 
-                </form>
-                <picture>
-                    <source media="(max-width: 600px)"  srcset="./images/rsz_smoothies-2253423_240.jpg">
-                    <source media="(max-width: 800px)"  srcset="./images/rsz_smoothies-2253423_480.jpg">
-                    <source media="(max-width: 1200px)" srcset="./images/rsz_smoothies-2253423_960.jpg">
-                    <img id="smoothies" loading="lazy" src="./images/rsz_smoothies-2253423_480.jpg" width="800" height="600" alt="Fruits on table and mixed into smoothies in mason jars.">
-                </picture>
-            </div>
-            <div id="weather">
-                <section id="weather-today">
-                    <h1>Weather in Carlsbad</h1>
-                    <p>Current temperature is <span id="temperature"></span>&deg;F</p>
-                    <p>Currently <span id="weather-desc"></span> <img id="weather-icon"></p>
-                    <p>Humidity: <span id="humidity"></span></p>
-                </section>
-                <section id="three-day">
-                    <hr class="hr_green">
-                    <hr class="hr_red">
-                    <h3>3 Day Forecast</h3>
-                    <section id="forecast">
-                    </section>
-                </section>
-            </div>
-            <div id="specialty-drink-register">
-                <h1>Your Specialty Drinks</h1>
-                <p>You have mixed <span id="specialty-drinks"></span> specialty drinks with us!  Keep mixing!</p>
-            </div>
+        <div class="drink-mixer">
+            <form class="drink-form">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label class="top">First Name<input id="fname" type="text" name="fname" required></label>
+                    <label class="top">Last Name<input type="text" name="lname"></label>
+                    <label class="top">Email<input id="email" type="email" name="email" placeholder="someone@email.com" required></label>
+                    <label class="top">Phone<input id="phone" type="tel" name="phone" placeholder="1238675309" required></label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Fruits</legend>
+                    <div id="fruit-cards">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Instructions</legend>
+                    <label class="top">Any special instructions<textarea id="instructions" name="instructions" rows="4" cols="32"></textarea></label>
+                </fieldset>
+                <input class="fresh-button submit-drink" value="Create Drink">
+
+            </form>
+                <fieldset>
+                    <legend>Results:</legend>
+                    <textarea id="result" name="results" rows="4" cols="32" readonly></textarea>
+                </fieldset>
+            <form>
+
+            </form>
         </div>
+
+
+        
     </body>
+
     <footer>
         <hr class="hr_green">
         <hr class="hr_red">
@@ -101,8 +97,7 @@
             <p>Last Updated: <span class="update"></span></p>
         </div>
     </footer>
+    <script src="./scripts/fruit.js"></script>
     <script src="./scripts/bountiful.js"></script>
-    <script src="./scripts/specialty.js"></script>
-    <script src="./scripts/weather.js"></script>
 </main>
 </html>

@@ -1,0 +1,72 @@
+/* 35rem is also 560px when basefont is 16px */
+@media only screen and (min-width: 45rem) {
+
+    nav button {
+        display: none;
+    }
+    
+    nav ul#primaryNav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    nav ul#primaryNav li:nth-child(4) {
+        grid-column: 1/4;
+    }
+
+    .index_cards {
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .index_cards div {
+        margin: 5px;
+        max-width: 100%;
+    }
+    
+    #information {
+        grid-column: 1/3;
+    }
+
+    #call-to-action {
+        grid-column: 1/3;
+    }
+
+    #smoothies {
+        width: 480px;
+        height: 270px;
+    }
+
+    #weather {
+        grid-column: 2/3;
+    }
+
+    #specialty-drink-register {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    #weather-today {
+        float: left;
+    }
+    
+    #three-day {
+        display: flex;
+        flex-direction: column;
+        float: right;
+        text-align: center;
+        font-family: var(--serif);
+        color: var(--broccoliGreen);
+        font-size: 1.3em;
+        padding-top: 10px;
+    }
+    
+    #about-body {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    
+    #map-card iframe {
+        width: 80%;
+    }
+    
+}

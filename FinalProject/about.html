@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Randall Eckstein">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bountiful Foods website promoting Southern California and fresh fruit with juices and nutrition information">
+    <meta name="description" content="Bountiful Foods website page to display more information about our company and where to find us.">
     <link type="text/css" ref="stylesheet" href="./styles/normalize.css">
     <link type="text/css" rel="stylesheet" href="./styles/small.css">
     <link type="text/css" rel="stylesheet" href="./styles/medium.css">
     <link type="text/css" rel="stylesheet" href="./styles/large.css">
-    <title>Bountiful Foods</title>
+    <title>About Bountiful Foods</title>
 </head>
 <main>
     <header>
@@ -37,49 +37,34 @@
             <hr class="hr_green">
             <hr class="hr_red">
         </nav>
-
-
     </header>
+
     <body>
-        <div class="index_cards">
-            <div id="information">
-                <h1>Southern California Coast</h1>
-                <p>Southern california is a beautiful place for fruit growing.  From grapes for wine to almonds, oranges and lemons, nature's bounty is well represented in Southern California.</p>
+        <div id="about-body">
+            <div id="about-card">
+                <h3>About Bountiful Foods</h3>
+                <p>Bountiful Foods was created shortly after John Steinbeck wrote "East of Eden."  The powerful image of the locomotives moving heads of lettuce up and down the California Coast spoke to Earl B. Freedman who saw the importance of fresh fruits and vegetables.</p>
+                <p>Following his acquisition of the fruit transportation rights along the west coast, Earl set up his first fruit drink shoppe.</p>
+                <p>As times have changed, Earl's family have kept up and are now offering juice smoothies with nutritional values.  We don't add the accai berries, or ginseng powder of some other shops, but we do offer fresh fruit drinks.  Fresh squeezed, fresh off the farm, and fresh for you.</p>
             </div>
-            <div id="call-to-action">
-                <h1>Make your own fruit drink!</h1>
-                <p>Try our fruit drink mixing portal.  You can mix a fruit smoothy and easily tell the calories and benefits!  Try it now!</p>
-                <form action="./fresh.html">
-                    <button class="fresh-button">Mix a Drink</button> 
-                </form>
-                <picture>
-                    <source media="(max-width: 600px)"  srcset="./images/rsz_smoothies-2253423_240.jpg">
-                    <source media="(max-width: 800px)"  srcset="./images/rsz_smoothies-2253423_480.jpg">
-                    <source media="(max-width: 1200px)" srcset="./images/rsz_smoothies-2253423_960.jpg">
-                    <img id="smoothies" loading="lazy" src="./images/rsz_smoothies-2253423_480.jpg" width="800" height="600" alt="Fruits on table and mixed into smoothies in mason jars.">
-                </picture>
+            <div id="contact-card">
+                <h3>Contact Us</h3>
+                <p>Phone: 760-555-0142</p>
+                <p id="address">Address: 2968 Garfield St</p>
+                <p>Carlsbad, CA 92008</p>
+                <div id="hours">
+                    <p>Hours of operation:</p>
+                    <p>Mon-Thur: 8 am - 8 pm</p>
+                    <p>Fri-Sun: 8 am - 10 pm</p>
+                </div>
             </div>
-            <div id="weather">
-                <section id="weather-today">
-                    <h1>Weather in Carlsbad</h1>
-                    <p>Current temperature is <span id="temperature"></span>&deg;F</p>
-                    <p>Currently <span id="weather-desc"></span> <img id="weather-icon"></p>
-                    <p>Humidity: <span id="humidity"></span></p>
-                </section>
-                <section id="three-day">
-                    <hr class="hr_green">
-                    <hr class="hr_red">
-                    <h3>3 Day Forecast</h3>
-                    <section id="forecast">
-                    </section>
-                </section>
-            </div>
-            <div id="specialty-drink-register">
-                <h1>Your Specialty Drinks</h1>
-                <p>You have mixed <span id="specialty-drinks"></span> specialty drinks with us!  Keep mixing!</p>
+            <div id="map-card">
+                <h3>Map of our location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d312.7841462342634!2d-117.35217329167725!3d33.15812510266626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc720fa34fb689%3A0xc93319f2eea585f2!2s2968%20Garfield%20St%2C%20Carlsbad%2C%20CA%2092008!5e0!3m2!1sen!2sus!4v1680467084872!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </body>
+
     <footer>
         <hr class="hr_green">
         <hr class="hr_red">
@@ -102,7 +87,5 @@
         </div>
     </footer>
     <script src="./scripts/bountiful.js"></script>
-    <script src="./scripts/specialty.js"></script>
-    <script src="./scripts/weather.js"></script>
 </main>
 </html>

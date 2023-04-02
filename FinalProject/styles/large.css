@@ -1,0 +1,43 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+
+    .index_cards {
+        grid-template-columns: 3fr 1fr;
+    }
+
+    .index_cards div {
+        margin: 5px;
+        max-width: 100%;
+    }
+    
+    #information {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #call-to-action {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    #smoothies {
+        width: 680px;
+        height: 383px;
+    }
+
+    #weather {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    #three-day {
+        display: block;
+    }
+
+    #specialty-drink-register {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+
+}

@@ -414,40 +414,23 @@ form label.sbs select {
 
 /* ------ Footer ------ */
 
-#social-media-footer {
-    display: flex;
-    justify-content: space-evenly;
-}
-
 #social-media-footer h4 {
-    text-align: center;
-    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    width: 90%;
     color: var(--strawberry);
     font-family: var(--sans-serif);
     font-size: 1.3em;
     margin-bottom: 0;
 }
 
-.footer-social {
-    padding-top: 5px;
-}
-
-.footer-social a {
+#social-media-footer h4 a {
     padding: 10px;
 }
 
-.footer-social a img {
+#social-media-footer h4 a img {
     width: 30px;
-}
-
-#social-media-footer div.social-media {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#social-media-footer div.social-media a img {
-    padding: 0 3px;
 }
 
 .footer {

@@ -380,8 +380,6 @@ form label.sbs select {
 /* ------ About Page ------ */
 
 #about-body {
-    /* display: grid;
-    grid-template-columns: 2fr 1fr; */
     text-align: center;
 }
 

@@ -3,6 +3,8 @@
 
     .index_cards {
         grid-template-columns: 3fr 1fr;
+        row-gap: 5px;
+        column-gap: 5px;
     }
 
     .index_cards div {
